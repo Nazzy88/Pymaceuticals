@@ -8,6 +8,13 @@ While your data companions rushed off to jobs in finance and government, you rem
 
 As a senior data analyst at the company, you've been given access to the complete data from their most recent animal study. In this study, 249 mice identified with SCC tumor growth were treated through a variety of drug regimens. Over the course of 45 days, tumor development was observed and measured. The purpose of this study was to compare the performance of Pymaceuticals' drug of interest, Capomulin, versus the other treatment regimens. You have been tasked by the executive team to generate all of the tables and figures needed for the technical report of the study. The executive team also has asked for a top-level summary of the study results.
 
+## Technologies
+* Python
+* Matplotlib
+* Pandas
+* Numpy
+* Scipy
+
 ## Instructions
 
 Your tasks are to do the following:
@@ -178,3 +185,7 @@ plt.ylabel("Tumor Volume (mm3)")
 plt.show()
 ```
 ![regplot](Images/regplot.png)
+
+## Observations
+* There were more trials done for certain drugs than others, so the information is skewed. Capomulin, Ramicane ,Ketapril, and Naftisol had more # of trials than other drugs given.
+* When looking at signs of progression in drug regimen treatment, we took a look at the mean of tumor size into consideration due to the skewed data of number of drug trials that were done that might be more than others.
