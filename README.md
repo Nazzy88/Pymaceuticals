@@ -86,7 +86,7 @@ plt.xlabel("Drug Regimen")
 plt.title("Data per Drug Regimen")
 plt.show()
 ```
-![matplotbar] (Images/matplotbar.png)
+![matplotbar](Images/matplotbar.png)
 
 * Generate a pie plot using both Pandas's `DataFrame.plot()` and Matplotlib's `pyplot` that shows the distribution of female or male mice in the study.
 ```python
@@ -101,7 +101,7 @@ plt.tight_layout()
 plt.axis("equal")
 plt.show()
 ```
-![piepandas] (Images/piepandas.png)
+![piepandas](Images/piepandas.png)
 
 ```python
 # Generate a pie plot showing the distribution of female versus male mice using pyplot
@@ -119,7 +119,7 @@ plt.axis("equal")
 
 plt.show()
 ```
-![pieplotlib] (Images/pieplotlib.png)
+![pieplotlib](Images/pieplotlib.png)
 
 * Using Matplotlib, generate a box and whisker plot of the final tumor volume for all four treatment regimens and highlight any potential outliers in the plot by changing their color and style.
 
@@ -131,7 +131,7 @@ ax1.set_ylabel('Final Tumor Volume (mm3)')
 ax1.set_xticklabels(["Capomulin", "Ramicane", "Propriva", "Ceftamin"])
 plt.show()
 ```
-![pieplotlib] (Images/pieplotlib.png)
+![pieplotlib](Images/pieplotlib.png)
 
 * Generate a line plot of time point versus tumor volume for a single mouse treated with Capomulin.
 ```python
@@ -147,7 +147,7 @@ plt.title("Tumor Volume with Capomulin for Mouse s185")
 plt.xlabel("Timepoint")
 plt.ylabel("Tumor Volume (mm3)")
 ```
-![lineplot] (Images/lineplot.png)
+![lineplot](Images/lineplot.png)
 
 * Generate a scatter plot of mouse weight versus average tumor volume for the Capomulin treatment regimen.
 ```python
@@ -159,7 +159,7 @@ plt.xlabel("Weight (g)")
 plt.ylabel("Tumor Volume (mm3)")
 plt.show()
 ```
-![lineplot] (Images/scatterplot.png)
+![lineplot](Images/scatterplot.png)
 
 * Calculate the correlation coefficient and linear regression model between mouse weight and average tumor volume for the Capomulin treatment. Plot the linear regression model on top of the previous scatter plot.
 ```python
@@ -177,4 +177,4 @@ plt.xlabel("Weight (g)")
 plt.ylabel("Tumor Volume (mm3)")
 plt.show()
 ```
-![regplot] (Images/regplot.png)
+![regplot](Images/regplot.png)
