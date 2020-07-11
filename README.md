@@ -138,7 +138,7 @@ ax1.set_ylabel('Final Tumor Volume (mm3)')
 ax1.set_xticklabels(["Capomulin", "Ramicane", "Propriva", "Ceftamin"])
 plt.show()
 ```
-![pieplotlib](Images/pieplotlib.png)
+![boxplot](Images/boxplot.png)
 
 * Generate a line plot of time point versus tumor volume for a single mouse treated with Capomulin.
 ```python
